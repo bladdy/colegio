@@ -4,22 +4,21 @@
 
 
 
-<div class="h-screen bg-cover bg-center relative" style="background-image: url('../assets/img/patio.jpg');">
+<section id="home" class="h-screen bg-cover bg-center relative" style="background-image: url('../assets/img/patio.jpg');">
   <div class="absolute inset-0 bg-black opacity-50"></div>
-  <div class="container mx-auto flex items-center h-full relative z-10">
+  <div class="container mx-auto flex items-center h-screen relative z-10">
     <div class="text-white text-left ml-14">
       <h1 class="text-4xl lg:text-8xl font-bold mb-4">Bienvenido al Colegio XYZ</h1>
       <p class="text-lg lg:text-2xl">Educación de calidad para un futuro brillante</p>
       <a href="#" class="ml-2 mt-4 border text-xl text-center md:text-base rounded-full inline-block border-white px-5 py-2 justify-self-end hover:bg-white hover:text-black duration-300">Solicitar Información</a>
     </div>
   </div>
-</div>
+</section>
 
-<div class="text-center mt-14">
-<h2 class="text-4xl font-semibold center  text-black/60">Oferta Educativa</h2>
+<div id="programas"  class="text-center mt-14">
+  <h2 class="text-4xl font-semibold center  text-black/60">Oferta Educativa</h2>
 </div>
 <section class="w-full max-w-[1600px] grid lg:grid-cols-12 auto-rows-[25rem] gap-4 mx-auto p-6 md:p-12 lg:p-20">
-
   <article class="col-span-4 relative rounded-xl backdrop-blur-md border border-black/10 shadow-inner shadow-white/10 overflow-hidden group">
     <div class="absolute z-10 bottom-0 top-0 w-full h-full
     bg-gradient-to-b from-transparent from-40% via-[#151836]/50 to-[#151836]/80"></div>
@@ -54,9 +53,7 @@
       <h2 class="text-3xl font-semibold text-balance text-white mb-4">Secundaria</h2>
     </div>
   </article>
-  </section>
-
-
+</section>
 <div class="text-center">
   <h2 class="text-4xl font-semibold center text-black/60">Actividades Extracurriculares </h2>
 </div>
@@ -144,6 +141,24 @@
 </section>
 
 <!--Niveles-->
+<section  id="sobre-nosotros" class="bg-white py-16">
+  <div class="container mx-auto flex flex-col lg:flex-row items-center justify-center">
+
+    <div class="lg:w-1/2 lg:mr-8 mb-4 lg:mb-0">
+      <img src="../assets/img/maestros.jpg" alt="Imagen de Sobre Nosotros" class="w-full h-auto rounded-xl">
+    </div>
+
+    <div class="lg:w-1/2">
+      <h2 class="text-3xl lg:text-6xl font-semibold mb-6  text-black/60">Sobre Nosotros</h2>
+      <p class="text-gray-700 text-xl leading-relaxed text-pretty">
+        Bienvenidos al Colegio XYZ, donde nos dedicamos a proporcionar una educación de calidad que inspira el aprendizaje y promueve el desarrollo integral de nuestros estudiantes.
+      </p>
+      <p class="text-gray-700 text-xl leading-relaxed text-pretty mt-4">
+        Nuestro compromiso es cultivar un ambiente educativo positivo que fomente la curiosidad, la creatividad y el respeto mutuo. Con profesionales dedicados y programas educativos innovadores, estamos aquí para ayudar a nuestros estudiantes a alcanzar su máximo potencial.
+      </p>
+    </div>
+  </div>
+</section>
 <section class="bg-white py-16">
   <div class="container mx-auto flex flex-col lg:flex-row items-center justify-center">
     <div class="lg:w-1/2 pr-5">
@@ -161,24 +176,6 @@
     </div>
     <div class="lg:w-1/2 lg:mr-8 mb-4 lg:mb-0">
       <img src="../assets/img/estudiantes.jpg" alt="Imagen de Sobre Nosotros" class="w-full h-auto rounded-xl">
-    </div>
-  </div>
-</section>
-<section class="bg-white py-16">
-  <div class="container mx-auto flex flex-col lg:flex-row items-center justify-center">
-
-    <div class="lg:w-1/2 lg:mr-8 mb-4 lg:mb-0">
-      <img src="../assets/img/maestros.jpg" alt="Imagen de Sobre Nosotros" class="w-full h-auto rounded-xl">
-    </div>
-
-    <div class="lg:w-1/2">
-      <h2 class="text-3xl lg:text-6xl font-semibold mb-6  text-black/60">Sobre Nosotros</h2>
-      <p class="text-gray-700 text-xl leading-relaxed text-pretty">
-        Bienvenidos al Colegio XYZ, donde nos dedicamos a proporcionar una educación de calidad que inspira el aprendizaje y promueve el desarrollo integral de nuestros estudiantes.
-      </p>
-      <p class="text-gray-700 text-xl leading-relaxed text-pretty mt-4">
-        Nuestro compromiso es cultivar un ambiente educativo positivo que fomente la curiosidad, la creatividad y el respeto mutuo. Con profesionales dedicados y programas educativos innovadores, estamos aquí para ayudar a nuestros estudiantes a alcanzar su máximo potencial.
-      </p>
     </div>
   </div>
 </section>
@@ -232,7 +229,7 @@
 <div class="text-center">
   <h2 class="text-4xl font-semibold center text-black/60">Descripción general del proceso de admisión</h2>
 </div>
-<div class="container mx-auto p-8">
+<section id="admisiones" class="container mx-auto p-8">
 
 
   <div class="mb-8">
@@ -265,7 +262,7 @@
       <p class="text-gray-700">If you have any questions or need assistance, feel free to contact our admissions office. We are here to help you throughout the process.</p>
   </div>
 
-</div>
+</section>
 
 
 
