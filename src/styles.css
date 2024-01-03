@@ -6,10 +6,10 @@
 @import "../node_modules/tailwindcss/components.css";
 @import "../node_modules/tailwindcss/utilities.css";
 
-body {
+html {
   font-family: 'Poppins', sans-serif;
 }
-#heade-nav{
+#header-nav{
   animation: blur linear both;
   animation-timeline: scroll();
   animation-range: 0 500px;
